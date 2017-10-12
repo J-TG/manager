@@ -9,7 +9,7 @@ const RouterComponent = () => {
   return (
   <Router sceneStyle={{ backgroundColor: '#fff' }}>
     <Scene key="root" modal hide NavBar>
-        <Scene key="auth" initial title="Namaste" >
+        <Scene key="auth" initial title="Helllo Jordan" >
           <Scene key="login" component={LoginForm} />
         </Scene>
         <Scene key="main">
